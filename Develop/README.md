@@ -1,8 +1,8 @@
-# Zach Fulmer Project
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This project is comprised of men ripping their shirts off and revealing tattered photos of themselves on the internet
+This application will request project information in order to auto-generate a README for the user's project
 
 ## Table of Contents
 - [Description](#description)
@@ -14,19 +14,19 @@ This project is comprised of men ripping their shirts off and revealing tattered
 - [Questions](#questions)
 
 ## Installation
-To install this application run the instance from command line
+To install this application, you must have node installed. Then clone the project to a local directory to work out of. Run the application within the specified directory through a command line interface
 
 ## Usage
-You  need to use this application
+Please fill out all requested data in order to produce a README file
 
 ## License
-This application is covered under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license.
+This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 Not accepting contributions at this time
 
 ## Tests
-Test the app by running the following
+Test this application by running it on your command line.
 
 ## Questions
 This code is made available by [ZachFulmer](https://github.com/ZachFulmer)

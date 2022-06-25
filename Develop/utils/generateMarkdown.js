@@ -39,7 +39,6 @@ function renderLicenseLink(license)
 // Generate markdown for README file
 function generateMarkdown(data) 
 {
-  console.log(data);
   return  `# ${data.title}
 ${renderLicenseBadge(data.license)}
 

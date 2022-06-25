@@ -123,7 +123,7 @@ function promptData()
             type: 'list',
             name: 'license',
             message: questions[6],
-            choices: ['MIT', 'zLib', 'ISC', 'Microsoft Public License']
+            choices: ['MIT', 'zLib', 'ISC', 'GNU GPLv3']
         },
         {
             type: 'input',

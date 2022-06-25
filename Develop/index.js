@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Questions to prompt the user with
 const questions = ['What is your project title?', 
                    'Enter a description for your project here: ',
                    'Enter installation instructions here: ',
@@ -14,6 +14,8 @@ const questions = ['What is your project title?',
                    'What is your GitHub username?',
                    'What is your email address?'
                     ];
+
+// Prompts user to acquire information for generating READMe file
 function promptData()
 {
     return inquirer.prompt([
@@ -163,13 +165,20 @@ function promptData()
     ]);
 };
 
-// TODO: Create a function to write README file
+// Write content to file
 function writeToFile(fileName, data) 
 {
-    console.log(data);
-}
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+          reject(err);
+          return;
+        }
+    
+        console.log('README File created!');
+      });
+};
 
-// TODO: Create a function to initialize app
+// Initialize application
 function init() 
 {
     promptData()
@@ -181,7 +190,7 @@ function init()
             {
                 writeToFile("README.md", markDownData);
             });
-}
+};
 
 // Function call to initialize app
 init();

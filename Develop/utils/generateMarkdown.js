@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Returns license badge base on license selection
 function renderLicenseBadge(license) 
 {
   if (!license) {
@@ -18,8 +17,7 @@ function renderLicenseBadge(license)
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Returns license link based on license selection
 function renderLicenseLink(license)
 {
   if (!license) {
@@ -38,45 +36,45 @@ function renderLicenseLink(license)
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README file
 function generateMarkdown(data) 
 {
   console.log(data);
   return  `# ${data.title}
-           ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-           ## Description
-           ${data.description}
+## Description
+${data.description}
 
-           ## Table of Contents
-           - [Description](#description)
-           - [Installation](#installation)
-           - [Usage](#usage)
-           - [License](#license)
-           - [Contributing](#contributing)
-           - [Tests](#tests) 
-           - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests) 
+- [Questions](#questions)
 
-           ## Installation
-           ${data.install}
+## Installation
+${data.install}
 
-           ## Usage
-           ${data.usage}
+## Usage
+${data.usage}
 
-           ## License
-           This application is covered under the [${data.license}]{${renderLicenseLink(data.license)}} license.
+## License
+This application is covered under the [${data.license}](${renderLicenseLink(data.license)}) license.
 
-           ## Contributing
-           ${data.contribution}
+## Contributing
+${data.contribution}
 
-           ## Tests
-           ${data.test}
+## Tests
+${data.test}
 
-           ## Questions
-           This code is made available by [${data.username}](https://github.com/${data.username})
-           
-           For all questions, improvements, or additional instructions please send an email to ${data.email}
-          `;
+## Questions
+This code is made available by [${data.username}](https://github.com/${data.username})
+
+For all questions, improvements, or additional instructions please send an email to ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;

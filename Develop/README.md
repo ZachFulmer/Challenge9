@@ -1,8 +1,8 @@
-# README Generator
+# Sample Project
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This application will request project information in order to auto-generate a README for the user's project
+Sample Project Description
 
 ## Table of Contents
 - [Description](#description)
@@ -14,19 +14,19 @@ This application will request project information in order to auto-generate a RE
 - [Questions](#questions)
 
 ## Installation
-To install this application, you must have node installed. Then clone the project to a local directory to work out of. Run the application within the specified directory through a command line interface
+Sample Project Installer instructions
 
 ## Usage
-Please fill out all requested data in order to produce a README file
+Usage info here
 
 ## License
 This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
-Not accepting contributions at this time
+Not accepting contributions
 
 ## Tests
-Test this application by running it on your command line.
+Test Instructions here
 
 ## Questions
 This code is made available by [ZachFulmer](https://github.com/ZachFulmer)

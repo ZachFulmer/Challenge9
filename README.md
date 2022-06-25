@@ -17,7 +17,7 @@ This application will request project information in order to auto-generate a RE
 To install this application, you must have node installed. Then clone the project to a local directory to work out of. Run the application within the specified directory through a command line interface
 
 ## Usage
-Please fill out all requested data in order to produce a README file
+[Demo Video](https://drive.google.com/file/d/1bN2w1ncUzM-EVZoPkUmUP8xGhpk8orVO/view?usp=sharing)
 
 ## License
 This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
